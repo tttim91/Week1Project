@@ -3,3 +3,119 @@
 * {
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+}
+
+.titles {
+    flex-direction: column;
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 400px;
+    margin-right: 0px;
+}
+
+h2 {
+    color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+    width: 400px;
+    margin-right: 0px;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+ul {
+    background-color: black;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+li {
+    color: white;
+    padding: 10px;
+    display: inline;
+}
+
+.middle {
+    display:flex;
+    flex-direction: row;
+    margin-left: 120px;
+}
+
+.big {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.placeholder {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.articles {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.article {
+    position: relative;
+    border: 1px solid black;
+    margin: 0px 10px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.article p {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.article img {
+    float: left;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.article a {
+    position: absolute;
+    color: orange;
+    bottom: 0;
+    margin-left: 200px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    background-color: grey;
+    height: 40px;
+    padding-top: 15px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
