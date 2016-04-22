@@ -96,6 +96,7 @@ li {
     margin: 10px;
     width: 80px;
     height: 80px;
+    z-index: auto;
 }
 
 .article a {
@@ -103,6 +104,15 @@ li {
     color: orange;
     bottom: 0;
     margin-left: 200px;
+    z-index: 0;
+}
+
+.article img:hover {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    top: -300px;
 }
 
 h3 {
